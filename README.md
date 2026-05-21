@@ -2,7 +2,9 @@
 
 A terminal-themed personal portfolio website built with React, Vite, and Tailwind CSS. Features a pixel-art aesthetic, smooth section navigation, and light/dark/auto mode support.
 
-🔗 **Live Site:** [](https://fzanurdev.vercel.app)]
+🔗 **Live Site:** 
+
+[(fzanurdev.vercel.app)]
 
 ---
 
