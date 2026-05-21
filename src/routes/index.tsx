@@ -420,36 +420,70 @@ function Experience() {
   return (
     <section id="experience" className="mx-auto max-w-6xl px-4 py-16">
       <SectionHeader tag="EXPERIENCE.log" title="> work_history" />
-      <div className="pixel-border bg-card p-6">
-        <div className="flex flex-wrap items-start justify-between gap-3">
-          <div>
-            <h3 className="text-base sm:text-lg text-primary">
-              FREELANCE CONTENT WRITER
-            </h3>
-            <p className="pixel text-[10px] text-muted-foreground mt-2">
-              SELF-EMPLOYED · REMOTE
-            </p>
+      <div className="space-y-5">
+        <div className="pixel-border bg-card p-6">
+          <div className="flex flex-wrap items-start justify-between gap-3">
+            <div>
+              <h3 className="text-base sm:text-lg text-primary">
+                FREELANCE CONTENT WRITER
+              </h3>
+              <p className="pixel text-[10px] text-muted-foreground mt-2">
+                SELF-EMPLOYED · REMOTE
+              </p>
+            </div>
+            <span className="pixel text-[10px] px-3 py-2 bg-accent text-accent-foreground">
+              2024 — PRESENT
+            </span>
           </div>
-          <span className="pixel text-[10px] px-3 py-2 bg-accent text-accent-foreground">
-            2024 — PRESENT
-          </span>
+          <ul className="mt-5 space-y-3 text-lg leading-relaxed">
+            <li className="flex gap-3">
+              <span className="text-primary pixel text-xs mt-1">▸</span>
+              <span>
+                Wrote engaging blog posts and articles across diverse topics for a range of
+                international clients.
+              </span>
+            </li>
+            <li className="flex gap-3">
+              <span className="text-primary pixel text-xs mt-1">▸</span>
+              <span>
+                Developed strong research, storytelling, and audience-engagement skills tailored
+                to client briefs and brand voice.
+              </span>
+            </li>
+          </ul>
         </div>
-        <ul className="mt-5 space-y-3 text-lg leading-relaxed">
-          <li className="flex gap-3">
-            <span className="text-primary pixel text-xs mt-1">▸</span>
-            <span>
-              Wrote engaging blog posts and articles across diverse topics for a range of
-              international clients.
+
+        <div className="pixel-border bg-card p-6">
+          <div className="flex flex-wrap items-start justify-between gap-3">
+            <div>
+              <h3 className="text-base sm:text-lg text-primary">
+                INDEPENDENT WEB DEVELOPER
+              </h3>
+              <p className="pixel text-[10px] text-muted-foreground mt-2">
+                PERSONAL WORK · SELF-DIRECTED
+              </p>
+            </div>
+            <span className="pixel text-[10px] px-3 py-2 bg-accent text-accent-foreground">
+              2025 — PRESENT
             </span>
-          </li>
-          <li className="flex gap-3">
-            <span className="text-primary pixel text-xs mt-1">▸</span>
-            <span>
-              Developed strong research, storytelling, and audience-engagement skills tailored
-              to client briefs and brand voice.
-            </span>
-          </li>
-        </ul>
+          </div>
+          <ul className="mt-5 space-y-3 text-lg leading-relaxed">
+            <li className="flex gap-3">
+              <span className="text-primary pixel text-xs mt-1">▸</span>
+              <span>
+                Designed, built, and deployed personal websites end-to-end using React, Vite,
+                Tailwind CSS, and modern deployment workflows on Netlify and similar platforms.
+              </span>
+            </li>
+            <li className="flex gap-3">
+              <span className="text-primary pixel text-xs mt-1">▸</span>
+              <span>
+                Practiced vibe coding — pairing with AI tools to rapidly prototype, iterate on
+                UI, and ship polished, responsive front-end experiences.
+              </span>
+            </li>
+          </ul>
+        </div>
       </div>
     </section>
   );
@@ -484,7 +518,7 @@ function Certs() {
 function Contact() {
   const links = [
     { label: "EMAIL", value: "fizanoor2005@gmail.com", href: "mailto:fizanoor2005@gmail.com" },
-    { label: "PHONE", value: "+92 329 4236683", href: "tel:+923294236683" },
+    { label: "EMAIL", value: "fizanoor2005@gmail.com", href: "mailto:fizanoor2005@gmail.com" },
     { label: "GITHUB", value: "github.com/fzanur", href: "https://github.com/fzanur" },
     { label: "LINKEDIN", value: "linkedin.com/in/fiza-noor", href: "https://linkedin.com/in/fiza-noor-70b797323" },
     { label: "GOOGLE DEV", value: "me.developers.google.com/fzanur", href: "https://me.developers.google.com/u/fzanur" },
