@@ -370,14 +370,20 @@ function Projects() {
                 </span>
               ))}
             </div>
-            <a
-              href={p.link}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="mt-4 pixel text-[10px] text-muted-foreground group-hover:text-primary transition-colors"
-            >
-              ▶ {p.linkLabel} →
-            </a>
+            {p.link ? (
+              <a
+                href={p.link}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="mt-4 pixel text-[10px] text-muted-foreground group-hover:text-primary transition-colors"
+              >
+                ▶ {p.linkLabel} →
+              </a>
+            ) : (
+              <span className="mt-4 pixel text-[10px] text-muted-foreground/60">
+                ◌ {p.linkLabel}
+              </span>
+            )}
           </article>
         ))}
       </div>
