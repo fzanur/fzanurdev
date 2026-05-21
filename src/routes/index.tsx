@@ -54,13 +54,13 @@ const PROJECTS = [
     tag: "FULL-STACK",
     desc: "End-to-end college management platform built on the MERN stack. Features role-based access control, student record management, and a fully responsive interface. Built to demonstrate complete full-stack development capability.",
     tech: ["MongoDB", "Express", "React", "Node.js"],
-    link: "",
-    linkLabel: "LINK COMING SOON",
+    link: "https://github.com/hashymhh/cms-portal",
+    linkLabel: "VIEW REPO",
   },
   {
     title: "ONLYFORYOUREYES",
     tag: "PERSONAL PROJECT",
-    desc: "A personal, curated web experience built and deployed independently. Designed and shipped end-to-end as a creative side project.",
+    desc: "A small Valentine's-themed website built as a personal project — a playful, single-purpose web experience designed, built, and deployed end-to-end as a creative side build.",
     tech: ["React", "Vite", "Tailwind", "Netlify"],
     link: "https://69e88cca79ba182829747781--graceful-paletas-af8273.netlify.app",
     linkLabel: "VISIT SITE",
@@ -70,7 +70,7 @@ const PROJECTS = [
 const SKILL_GROUPS: { title: string; items: string[] }[] = [
   {
     title: "LANGUAGES",
-    items: ["Python", "C", "C++", "JavaScript", "HTML", "CSS / Tailwind", "Markdown", "Vibe Coding"],
+    items: ["Python", "C", "C++", "JavaScript", "HTML", "CSS / Tailwind", "Markdown"],
   },
   {
     title: "AI / ML",
@@ -85,8 +85,8 @@ const SKILL_GROUPS: { title: string; items: string[] }[] = [
     items: ["Neural Networks", "Data Structures & Algorithms", "OOP", "AI Fundamentals"],
   },
   {
-    title: "TOOLS / DESIGN",
-    items: ["Git", "GitHub", "VS Code", "Visual Studio", "Figma", "Canva", "Linux"],
+    title: "TOOLS / WORKFLOW",
+    items: ["Git", "GitHub", "VS Code", "Visual Studio", "Figma", "Canva", "Linux", "Vibe Coding"],
   },
   {
     title: "HARDWARE / NETWORKING",
@@ -425,7 +425,7 @@ function Experience() {
           <div className="flex flex-wrap items-start justify-between gap-3">
             <div>
               <h3 className="text-base sm:text-lg text-primary">
-                FREELANCE CONTENT WRITER
+                COMMUNICATION & RESEARCH (FREELANCE WRITING)
               </h3>
               <p className="pixel text-[10px] text-muted-foreground mt-2">
                 SELF-EMPLOYED · REMOTE
@@ -439,15 +439,16 @@ function Experience() {
             <li className="flex gap-3">
               <span className="text-primary pixel text-xs mt-1">▸</span>
               <span>
-                Wrote engaging blog posts and articles across diverse topics for a range of
-                international clients.
+                Delivered researched, well-structured long-form articles for international
+                clients — sharpening the ability to break down complex topics and explain
+                them clearly.
               </span>
             </li>
             <li className="flex gap-3">
               <span className="text-primary pixel text-xs mt-1">▸</span>
               <span>
-                Developed strong research, storytelling, and audience-engagement skills tailored
-                to client briefs and brand voice.
+                Built strong written-communication, research, and documentation habits that
+                carry directly into technical writing, project docs, and collaboration.
               </span>
             </li>
           </ul>
@@ -556,7 +557,7 @@ function Footer() {
     <footer className="border-t-4 border-border mt-10">
       <div className="mx-auto max-w-6xl px-4 py-6 flex flex-wrap items-center justify-between gap-3">
         <p className="pixel text-[9px] text-muted-foreground">
-          © 2026 FIZA NOOR — ALL RIGHTS RESERVED
+          © 2025 FIZA NOOR — ALL RIGHTS RESERVED
         </p>
         <p className="pixel text-[9px] text-muted-foreground">
           BUILT WITH REACT · TAILWIND · PIXEL LOVE
