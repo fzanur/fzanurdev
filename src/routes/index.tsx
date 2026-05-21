@@ -518,7 +518,6 @@ function Certs() {
 function Contact() {
   const links = [
     { label: "EMAIL", value: "fizanoor2005@gmail.com", href: "mailto:fizanoor2005@gmail.com" },
-    { label: "EMAIL", value: "fizanoor2005@gmail.com", href: "mailto:fizanoor2005@gmail.com" },
     { label: "GITHUB", value: "github.com/fzanur", href: "https://github.com/fzanur" },
     { label: "LINKEDIN", value: "linkedin.com/in/fiza-noor", href: "https://linkedin.com/in/fiza-noor-70b797323" },
     { label: "GOOGLE DEV", value: "me.developers.google.com/fzanur", href: "https://me.developers.google.com/u/fzanur" },
