@@ -60,17 +60,17 @@ const PROJECTS = [
   {
     title: "ONLYFORYOUREYES",
     tag: "PERSONAL PROJECT",
-    desc: "A personal project — details and link coming soon.",
-    tech: ["TBD"],
-    link: "",
-    linkLabel: "LINK COMING SOON",
+    desc: "A personal, curated web experience built and deployed independently. Designed and shipped end-to-end as a creative side project.",
+    tech: ["React", "Vite", "Tailwind", "Netlify"],
+    link: "https://69e88cca79ba182829747781--graceful-paletas-af8273.netlify.app",
+    linkLabel: "VISIT SITE",
   },
 ];
 
 const SKILL_GROUPS: { title: string; items: string[] }[] = [
   {
     title: "LANGUAGES",
-    items: ["Python", "C", "C++", "JavaScript", "HTML", "CSS / Tailwind", "Markdown"],
+    items: ["Python", "C", "C++", "JavaScript", "HTML", "CSS / Tailwind", "Markdown", "Vibe Coding"],
   },
   {
     title: "AI / ML",
